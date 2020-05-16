@@ -2,7 +2,7 @@ require 'telegram/bot'
 require './joke_getter.rb'
 require './number_guesser.rb'
 
-token = '1131647430:AAGEIvHRJgE8xkMNNWOAWj7wjlbHoMTXnw8'
+token = ''
 numberBot=Number_guesser.new
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
